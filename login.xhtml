@@ -1,0 +1,27 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+<body>
+<link rel="stylesheet" type="text/css" href="/css/login.css"/>
+<center>
+	<h:form id="login_form">
+	<h:panelGrid columns="2"  style="color: black; font-family: Arial ;  border: 2px solid black;
+    border-radius: 3px; height: 110px;border-color: #007FFF;border-color: #007FFF;
+    width: 30%;">
+		
+			<p:outputLabel>Usuario:</p:outputLabel>
+			<p:inputText id="usuario_login_form"></p:inputText>
+			<p:outputLabel>Contraseña:</p:outputLabel>
+			<p:inputText id="contrasena_login_form"></p:inputText>
+			<p:button class="button">Ingresar</p:button>
+	</h:panelGrid>
+	</h:form>
+</center>	
+</body>
+</html>
